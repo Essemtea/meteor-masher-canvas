@@ -1,0 +1,41 @@
+/*
+ * This is the default style for the web app template. If you know what you're doing,
+ *	you can customize your app's look here. If not, better leave it alone.
+ *	
+ *	Sam Scott, Sheridan College, 2013
+ */
+ 
+body {
+	text-align: center;
+	background-color: black;
+	background-image: url("background/space_back1.png");
+	font-family: sans-serif;
+}
+div {
+    cursor:none;
+}
+#container {
+	margin: auto;
+}
+canvas {
+	background-color: white;
+}
+h1 {
+	margin: 5px;
+}
+h2 {
+	margin: 5px;
+	font-size: 14px;
+	font-family: serif;
+}
+#debug {
+	text-align:left;
+	font-family:monospace;
+}
+@font-face {
+	font-family: 'Conv_earthorbitergrad';
+	src: url('/fonts/earthorbitergrad.eot');
+	src: local('☺'), url('fonts/earthorbitergrad.woff') format('woff'), url('/fonts/earthorbitergrad.ttf') format('truetype'), url('/fonts/earthorbitergrad.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
